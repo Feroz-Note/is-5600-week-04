@@ -1,3 +1,4 @@
+
 // middleware.js
 /**
  * Set the CORS headers on the response object

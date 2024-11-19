@@ -65,7 +65,6 @@ async function deleteProduct(req, res) {
       res.status(500).json({ error: err.message });
   }
 }
-
 async function updateProduct(req, res) {
 const { id } = req.params;
 const updatedData = req.body;
